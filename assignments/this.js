@@ -43,13 +43,6 @@ console.log(Joseph.doWork());
 
 // code example for Explicit Binding
 
-
-//function wkObj(acObj) {
-//this.wkType = acObj.wkType;
-//this.wklength = acObj.wklength;
-//return (this.wkType);
-//};
-
 const work = new jbObj({ title: 'hard worker', wklength: ' a long time in' });
 
 const timeoff = new jbObj({ title: "easy", wklength: "too short" });
